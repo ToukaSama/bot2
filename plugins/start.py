@@ -81,8 +81,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
              InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
-            [InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Anime_X_Hunters'),
-             InlineKeyboardButton('ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Ongoing_Anime_X_Hunter')],
+            [InlineKeyboardButton('Aɴɪᴍᴇᴢ Hɪɴᴅɪ Dᴜʙ', url='https://t.me/Animez_Hindi_Dub'),
+             InlineKeyboardButton('Oɴɢᴏɪɴɢ Aɴɪᴍᴇ Hɪɴᴅɪ', url='https://t.me/Ongoing_Anime_Dub_Hindi')],
             [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
         ])
         await message.reply_photo(
@@ -114,8 +114,8 @@ REPLY_ERROR = "<code>Use this command as a reply to any telegram message without
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
-            InlineKeyboardButton(text="ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
+            InlineKeyboardButton(text="Aɴɪᴍᴇᴢ Hɪɴᴅɪ Dᴜʙ", url=client.invitelink),
+            InlineKeyboardButton(text="Oɴɢᴏɪɴɢ Aɴɪᴍᴇ Hɪɴᴅɪ", url=client.invitelink2),
         ]
     ]
     try:
