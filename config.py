@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7582548713:AAEgu3o0TFDny3CCER63EJeZC502P5HXTio")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7733240987:AAH9K6SM329KlYfKOrGbaKJvQwnkQjNxb94")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22606849"))
@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6440021089"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "meow")
-DB_NAME = os.environ.get("DATABASE_NAME", "meow")
+DB_URI = os.environ.get("DATABASE_URL", "meowtaro")
+DB_NAME = os.environ.get("DATABASE_NAME", "mongodb+srv://meow:meow@meow.a6bo1.mongodb.net/?retryWrites=true&w=majority&appName=meow")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002098656629"))
@@ -37,7 +37,7 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002017610951"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/9f10cfb5ea93d4766357e.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/fc6bb78ae8bfc0a4996fa-870e0e6963924a6dee.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/541d20525d6938d2fd77e.jpg")
 
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Anime_X_Hunters\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/Its_Oreki_Hotarou>Hōᴛᴀʀō Oʀᴇᴋɪ</a></b>"
